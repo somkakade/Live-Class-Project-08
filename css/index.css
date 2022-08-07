@@ -4,3 +4,57 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.main-div {
+  position: relative;
+}
+/* navbar area started here */
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items .nav-item {
+  margin-right: 15px;
+  color: #2827cc;
+  font-weight: 700;
+}
+button.signin-btn {
+  border: transparent;
+  padding: 3px 15px;
+  border-radius: 50px;
+  font-size: 12px;
+  color: #fff;
+  background-image: linear-gradient(to right, #2827cc 2%, #e03b8b 100%);
+}
+
+/* intro-section area started here */
+.intro-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-section h1 {
+  color: #3b3b7e;
+  font-size: 57px;
+}
+.left-section h4 {
+  font-size: 12px;
+  color: #9b9aef;
+  padding: 25px 0;
+  line-height: 19px;
+}
+.learn-more-btn {
+  border: transparent;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #fff;
+  background-image: linear-gradient(to right, #2827cc 2%, #e03b8b 100%);
+}
